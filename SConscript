@@ -15,6 +15,7 @@ os.path.join(src_path, 'n32h49x_pwr.c'),
 os.path.join(src_path, 'n32h49x_rcc.c'),
 os.path.join(src_path, 'n32h49x_dbg.c'),
 os.path.join(src_path, 'n32h49x_exti.c'),
+os.path.join(src_path, 'n32h49x_flash.c'),
 ]
 
 if GetDepend(['RT_USING_SERIAL']) or GetDepend(['RT_USING_NANO', 'RT_USING_CONSOLE']):
